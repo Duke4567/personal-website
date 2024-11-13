@@ -50,7 +50,6 @@
     .hero-text-h2 {
         margin-top: 0px;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -60,9 +59,9 @@
         height: 100vh;
         display: flex;
         flex-direction: row;
-     }
+    }
 
-     body{
+    body{
         font-family: 'Quicksand', sans-serif;
         font-size: 1rem;
         color: #525f7f;
@@ -120,7 +119,7 @@
         margin-left: 50px;
     }
 
-    .mt-50 {
+    mt-50 {
         margin-top: 50px;
     }
 
@@ -161,6 +160,7 @@
     .list {
         width: 50%;
     }
+
     .cards {
         display: flex;
         justify-content: space-between;
@@ -195,7 +195,7 @@
         width: 400px;
         margin-left: 184px;
         border-radius: 5px;
-        margin: 10px;   
+        margin: 10px;
     }
 
     .design img {
@@ -210,7 +210,7 @@
         font-weight: 300px;
     }
 
-    .desktop{
+    .desktop {
         margin: 0;
     }
 
@@ -246,7 +246,7 @@
     }
 
     .pineaple-image {
-        background: url('../../images/pineaple.png') top/cover;
+        background: url('../../images//pineaple.png') top/cover;
     }
 
     .wooden_hand{
@@ -265,7 +265,7 @@
     }
 
     .text {
-        width: 360px;   
+        width: 360px;
     }
 
     .person{
@@ -294,8 +294,8 @@
         margin: 10px;
     }
 
-    .empty-work-table {  
-        padding: 60px; 
+    .empty-work-table {
+        padding: 60px;
         background: url('../../images/empty_work_table.jpeg') top/cover;
         width: 533px;
         height: 214px;
@@ -317,7 +317,6 @@
         color: #ffffff;
         text-align: center;
         width: 110px;
-        /* margin: 20px; */
         margin-top: 158px;
         border: 10px;
     }
@@ -325,9 +324,10 @@
     .table{
         box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.19);
         background-color: white;
-        width: 208px; 
-        margin-left: auto; 
-        margin-right: auto; height: 180px; 
+        width: 208px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
         padding: 30px;
     }
 
@@ -349,7 +349,7 @@
 
     .info{
         background-color: white;
-        width: 50%; 
+        width: 50%;
         height: 421px;
         padding: 10px;
         margin-top: 50px;
@@ -370,7 +370,7 @@
 
     .send-message{
         background-color: #d9832e;
-        width: 122px; 
+        width: 122px;
         padding: 16px;
         color: white;
         margin-top: 50px;
@@ -399,5 +399,4 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 }
